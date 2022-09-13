@@ -1,5 +1,6 @@
 
-## Getting Started
+## SeePay.io
+## Fintech Sass Modern Landing Page, Built with Next.js and Styled-components using the Atomic design structure.
 
 First, run the development server:
 

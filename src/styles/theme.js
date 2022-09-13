@@ -1,18 +1,22 @@
 import { createGlobalStyle } from "styled-components"
+import heroImg from '../assets/leftherobg.png'
+import heroImg1 from '../assets/bgimg1.png'
 
 export const theme = {
   colors: {
-    black: "#0000",
+    black: "#000",
     brand: "#EB5757",
     white: "#FFFFFF",
+    grey: "#757095"
   },
   fonts: {
-    bold: "700",
+    bold: "600",
+    bolder: "800",
     xs: "9px",
     sm: "12px",
     md: "16px",
     lg: "20px",
-    xl: "24px",
+    xl: "60px",
   }
 }
 
@@ -40,6 +44,13 @@ export const GlobalStyles = createGlobalStyle`
   img {
     width: 100%;
   }
+
+  .heroBg {
+    background: url(${heroImg1});
+    background-position: center;
+    background-size: cover;
+  }
+
 `
 
 

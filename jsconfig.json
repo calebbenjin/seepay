@@ -8,6 +8,7 @@
       "@/organisms/*": ["organisms/*"],
       "@/public/*": ["public/*"],
       "@/styles/*": ["styles/*"],
+      "@/assets/*": ["assets/*"],
     }
   }
 }

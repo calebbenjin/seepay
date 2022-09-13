@@ -1,10 +1,11 @@
 import React from 'react'
+import BoxWrapper from './style'
 
-const Box = ({children}) => {
+const Box = ({children, ...props}) => {
   return (
-    <div>
-      
-    </div>
+    <BoxWrapper {...props}>
+      {children}
+    </BoxWrapper>
   )
 }
 

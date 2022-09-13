@@ -1,15 +1,19 @@
-import Head from 'next/head'
+import Header from "@/components/organisms/Header";
+import Layout from "@/components/molecules/Layout";
+import Hero from "@/components/organisms/Hero";
+
 
 export default function Home() {
-  return (
-    <>
-      <Head>
-        <title>SeePay</title>
-        <meta name="description" content="FinTech Sass Modern Landing Page" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
-      <h1>Fintech Sass Modern Landing Page</h1>
-    </>
+  const obj = undefined;
+
+  Object.keys(null || {});
+
+
+  return (
+    <Layout title="SeePay Home Page">
+      <Header />
+      <Hero />
+    </Layout>
   )
 }
